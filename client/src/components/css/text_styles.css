@@ -1,0 +1,30 @@
+.header-txt-grey {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-txt {
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-family: 'Monaco', Monospace;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.disabled-text {
+    color: #888787;
+    /* disable text select highlight */
+    user-select: none;
+    /* iOS Safari */
+    -webkit-touch-callout: none;
+    /* Safari */
+    -webkit-user-select: none;
+    /* Konqueror HTML */
+    -khtml-user-select: none;
+    /* Firefox */
+    -moz-user-select: none;
+}
